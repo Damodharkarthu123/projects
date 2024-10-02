@@ -1,0 +1,80 @@
+
+    
+.header{
+    background-color: black;
+    color: white;
+    
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 30px ;
+    position: relative;
+    top: 25px;
+}
+
+.img{
+    margin-right: -1400px;
+    position: relative;
+    top: -10px;
+    
+    
+}
+hr{
+    position: relative;
+    top: -10px;;
+}
+.spash{
+    position: relative;
+    top: -19px;
+}
+
+
+
+
+
+
+.title{
+    background-color: black;
+    color: white;
+    height: 800px;
+
+}
+.light{
+    height: 56.48px;
+    width: 56.48px;
+    text-align: left;
+    margin-left: 1200px;
+    position: relative;
+    top: 20px;
+}
+
+.tes{
+    width: 192.04px;
+    height: 57.61px;
+
+}
+.ab{
+    margin-right: 1050px;
+    position: relative;
+    top: 10px;
+}
+.xy{
+    color: aqua;
+}
+.parsh{
+    background-color: whitesmoke;
+    
+    
+}
+.super{
+    color: aqua;
+}
+
+p{
+    text-align: justify;
+    margin-left: 500px;
+
+}
