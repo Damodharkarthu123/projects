@@ -27,15 +27,28 @@ const Phone = () => {
 
         
      </div>
-     <div className='parsh'></div>
+     <div className='parsh'>
      <div className='footer'>
       <h1>About <span className='super'>Lorem</span></h1>
       <p>At AFQ Tech, we believe in a systematic approach for any project be <br />it complex or simple. We are a group of individuals with a various set <br />of skill set varies from Digital Marketing to IoT/Robotics solutions.  We<br />have our dedicated team for your project which uses various<br /> methods such as agile Scrum & agile Kanban. We ensure top-notch <br />quality, on-time delivery, and agility for your project.</p>
-
+     </div>
+     <div className='rushi'>
+      <div className='rushi1'>
+        <img src="/Vector.png" alt=" vec" />
+      </div>
+      <div className='rushi2'>
+      <img src='/Line Chart 2.png' alt='chart' className=' sai' />
+      <h5>Cross Device compatibility</h5>
+      <h6>Multi-device compatibility ensure that<br />creating, viewing and providing quick and <br />easy</h6> 
       
+      </div>
+      <div className='rushi3'>
+        <img src='/vectors.png' alt='gdd' />
+      </div>
+       
+     </div>
 
      </div>
-        
     </div>
   )
 }

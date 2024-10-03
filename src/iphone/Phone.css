@@ -1,5 +1,3 @@
-
-    
 .header{
     background-color: black;
     color: white;
@@ -31,7 +29,10 @@ hr{
     top: -19px;
 }
 
-
+.footer{
+    position: relative;
+    top: 50px;
+}
 
 
 
@@ -48,7 +49,7 @@ hr{
     text-align: left;
     margin-left: 1200px;
     position: relative;
-    top: 20px;
+    top: 25px;
 }
 
 .tes{
@@ -66,6 +67,9 @@ hr{
 }
 .parsh{
     background-color: whitesmoke;
+    position: relative;
+    top: -40px;
+    height: 1140.4px;
     
     
 }
@@ -77,4 +81,33 @@ p{
     text-align: justify;
     margin-left: 500px;
 
+}
+
+.rushi2{
+    background-color:rgba(240, 238, 238, 0.797) ;
+    height: 225.92px;
+    width: 247.39px;
+    position: relative;
+    margin-left: 610px;
+    top: -55px;
+    border-radius: 15px;
+    
+       
+}
+.sai{
+    position: relative;
+    margin-right:8px;
+    bottom: -25px;
+    
+}
+.rushi2 h5{
+    position: relative;
+    top: 25px;
+    font-weight: bolder;
+    
+}
+.rushi2 h6{
+    position: relative;
+    top: 20px;
+    color: rgb(178, 176, 176);
 }
