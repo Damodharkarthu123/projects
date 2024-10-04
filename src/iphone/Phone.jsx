@@ -13,8 +13,11 @@ const Phone = () => {
         <div className='spash'>
            <div className='title'>
             <img src='/Bulb 2.png' alt='bulb' className='light' />
+          
               <div className='word'><h2>Advanced software,<br /><br />advanced reasearch for<br /><br /> <span className='xy'> SIMPLE </span>life</h2> <br /><br />
+            
               <img src='/Vector@3x.png' alt='vector' className='tes' /><br /> <br /> 
+           
       <h1>1234</h1>
       <h5>Lorem lpsum <br /> is simply. </h5>
         <img src='/bell_2 2.png' alt='rod' className='ab' />
