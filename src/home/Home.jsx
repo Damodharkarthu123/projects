@@ -14,15 +14,16 @@ const Home = () => {
         <div className='dha'>
             <div className='head'>LOGO</div>
         <div className='navsection'>
-             <li>Home</li>
+           <Link><li>Home</li></Link> 
             
-             <li>About us</li>
+           <Link><li>About us</li></Link>  
           
-            <li>Services</li>
-            <li>News</li>
-            <li>Contactus</li>
+          <Link><li>Services</li></Link> 
+           <Link><li>News</li></Link> 
+           <Link><li>Contactus</li></Link> 
         </div>
         <img src='/Rectangle 119.png' alt='sd' className='su' />
+        <img src='/Rectangle 1.png' alt='gsd' className='sa' />
         </div><hr />
          <Routes>
       <Route path='abcd' element = {<Firstpage />} />
