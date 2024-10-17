@@ -1,0 +1,69 @@
+.aboutuswrapper {
+    background-color: whitesmoke;
+    color: black;
+    max-width: 1244px;
+    max-height: 615px;
+    padding: 108px 98px 116.5px 98px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.color {
+    color: aqua;
+}
+
+.aboutusdescription {
+    color: gray;
+    font-weight: lighter;
+    text-align: center;
+    max-width: 929px;
+    max-height: 109px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 34px;
+    
+
+}
+
+.Aboutuscard {
+    padding: 25px 25px 50px 25px;
+    background-color: white;
+    max-height: 349px;
+    max-width: 381px;
+    color: black;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.image {
+    width: 135px;
+    height: 135px;
+
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.description {
+    text-align: center;
+    color: gray;
+    font-weight: light;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Aboutuscards{
+    display: flex;
+    gap: 50px;
+}
