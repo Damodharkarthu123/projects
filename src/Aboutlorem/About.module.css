@@ -1,8 +1,7 @@
 .aboutuswrapper {
     background-color: whitesmoke;
     color: black;
-    max-width: 1244px;
-    max-height: 615px;
+    
     padding: 108px 98px 116.5px 98px;
     text-align: center;
     margin-right: auto;
@@ -24,8 +23,7 @@
     color: gray;
     font-weight: lighter;
     text-align: center;
-    max-width: 929px;
-    max-height: 109px;
+    
     margin-left: 190px;
     margin-right: 190px;
     padding: 34px;
@@ -66,4 +64,14 @@
 .Aboutuscards{
     display: flex;
     gap: 50px;
+}
+.imagees{
+
+    
+    max-height: 349px;
+    max-width: 381px;
+    
+    border-radius: 20px;
+    
+    
 }
