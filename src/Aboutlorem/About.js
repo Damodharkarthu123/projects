@@ -15,7 +15,7 @@ const About = () => {
       img: '/lines.png',
       title: 'Cross Device Compatibility',
       description: 'Multi-device compatibility ensures that creating, viewing and providing quick and easy',
-      bgcolor:'#F1F1F1',
+    
 
     },
     {
@@ -35,9 +35,16 @@ const About = () => {
       <div className={styles.Aboutuscards}>
         {Array.map((item,index)=>{
        return <Aboutuscard  key= {`Aboutuscard-${index}`}{...item} />
+
         })}
-      </div>
+        
+      </div> 
+      <hr  />
+
     </div>
+    
+    
+    
   )
 }
 

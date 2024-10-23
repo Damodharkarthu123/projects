@@ -3,11 +3,15 @@
 import React from 'react'
 import styles from './Whatwe.module.css'
 
-const Whatwedoescard = ({img, title, description}) => {
+const Whatwedoescard = ({img, title, description,bgcolor}) => {
   return (
-    <div className={styles.Whatwedoescard}>
+    <div className={styles.Whatwedoescard} >
+      
+      <div className={styles.bgcolors} style={{background:bgcolor}}>
+
         
-        <img src={img} alt='VRArray' className={styles.image} />
+        <img src={img} alt='web' className={styles.image} />
+        </div>
       <div className={styles.title}>
         {title}
       </div>

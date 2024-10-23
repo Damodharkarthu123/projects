@@ -65,13 +65,7 @@
     display: flex;
     gap: 50px;
 }
-.imagees{
-
-    
-    max-height: 349px;
-    max-width: 381px;
-    
-    border-radius: 20px;
-    
-    
+hr{
+ margin-top: 40px;
 }
+

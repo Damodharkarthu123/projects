@@ -1,0 +1,61 @@
+
+.Whatweapplication{
+
+background-color: whitesmoke;
+color: black;
+max-width: 1270px;
+max-height: 758px;
+padding: 84.5px 72px 98px;
+margin-left:auto ;
+margin-right: auto;
+text-align: center;
+}
+.heading{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+    
+}
+.Whatwedoescard{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.Whatwedoescards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 111px;
+    flex: 1px;
+}
+.image{
+    max-width: 41px;
+    max-height: 41px;
+    padding: 25px 25px 25px 25px;
+}
+.title{
+    color: black;
+    font-size: large;
+    font-weight:bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.description{
+    color:  rgba(69, 67, 67, 0.662);
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5px;
+}
+.bgcolors{
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 20px;
+}

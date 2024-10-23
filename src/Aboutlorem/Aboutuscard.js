@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './About.module.css'
 
-const Aboutuscard = ({img, title, description,bgcolor}) => {
+const Aboutuscard = ({img, title, description}) => {
   return (
     <div className={styles.Aboutuscard} >
-      <div className={styles.imagees} style={{backgroundColor:bgcolor}}>
+      <div className={styles.imagees} >
       <img src={img} alt='VRArray' className={styles.image} />
      
       <div className={styles.title}>
