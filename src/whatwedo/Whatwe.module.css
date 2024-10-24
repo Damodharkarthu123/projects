@@ -4,7 +4,7 @@
 background-color: whitesmoke;
 color: black;
 max-width: 1270px;
-max-height: 758px;
+max-height: 760px;
 padding: 84.5px 72px 98px;
 margin-left:auto ;
 margin-right: auto;
@@ -58,4 +58,7 @@ text-align: center;
     max-width: 90px;
     max-height: 90px;
     border-radius: 20px;
+}
+hr{
+    width: 1440px;
 }
