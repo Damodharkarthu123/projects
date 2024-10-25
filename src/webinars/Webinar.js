@@ -22,6 +22,12 @@ const Webinar = () => {
         </button>
         </div>
         </div>
+        <div className={styles.circles}>
+          <img src='/ellipse.png' alt='cir' style={{ width: '30px', height: '30px' }} ></img>
+          <img src='/ellipse1.png' alt='circ' style={{ width: '30px', height: '30px' }}></img>
+          <img src='/ellipse2.png' alt='circle' style={{ width: '30px', height: '30px' }}></img>
+        </div>
+        <hr />
     </div>
   )
 }

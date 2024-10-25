@@ -15,13 +15,16 @@ const About = () => {
       img: '/lines.png',
       title: 'Cross Device Compatibility',
       description: 'Multi-device compatibility ensures that creating, viewing and providing quick and easy',
+      bgcolor:'F1F1F1'
+      
     
 
     },
     {
       img: '/clock .png',
       title: 'Tailer Mode Development',
-      description: 'Scalable and dynamic systems with the ever-changing trends to meet your dynamic business needs'
+      description: 'Scalable and dynamic systems with the ever-changing trends to meet your dynamic business needs',
+      bgcolor:'F1F1F1'
     }
 
   ]

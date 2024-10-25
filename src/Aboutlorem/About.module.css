@@ -42,8 +42,9 @@
 }
 
 .image {
-    width: 135px;
-    height: 135px;
+   max-width: 135px; 
+    max-height: 135px;
+    
 
 }
 
