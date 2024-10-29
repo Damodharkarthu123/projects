@@ -1,0 +1,87 @@
+
+
+.newssection{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 87px 33px 139px 105px;
+    margin-top: -7px;
+    max-width: 1472px;
+    max-height: 966px;
+    
+    
+    
+}
+.newsnext{
+    max-width: 559px;
+    max-height: 137px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    
+    
+    
+}
+.newsdescription{
+    color: rgba(61, 60, 60, 0.275);
+    font-weight: lighter;
+    font-size: medium;
+    text-align: center;
+    padding: 18px;
+}
+.viewallimg{
+    max-width: 80px;
+    max-height: 36px;
+    padding: 14px 122px 36px 1133px;
+}
+.Ourlatestnewscards{
+    display: flex;
+    gap: 68px;
+    width: 332px;
+    height: 281px;
+    padding: 16px;
+}
+.date{
+    font-size: medium;
+    font-weight: lighter;
+    color: gray;
+    text-align: left;
+    margin-top: 22px;
+
+}
+.title{
+    font-size: smaller;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+    margin-top: 9px;
+}
+.description{
+    font-size: x-small;
+    font-weight: lighter;
+    color: gray;
+    text-align: left;
+    margin-top: 28px;
+    
+}
+
+
+
+
+
+
+    
+    
+
+  
+
+
+
