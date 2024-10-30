@@ -12,6 +12,7 @@ const Ourlatestnews = () => {
       date: '12/12/2020',
       title: 'Holoplot',
       description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an'
+      
 
     },
     {
@@ -19,6 +20,7 @@ const Ourlatestnews = () => {
       date: '12/12/2020',
       title: 'Nawaloka Hospitals Mobile App',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an'
+       
 
 
     },
@@ -27,12 +29,15 @@ const Ourlatestnews = () => {
       date: '12/12/2020',
       title: 'Smart Solution For Ambuluwawa Biodiversity Complex',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an '
+     
+
     },
     {
       img: '/hospitalpic.png',
       date:'12/12/2020',
       title: 'Nawaloka Hospitals Mobile App',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an '
+      
     }
   ]
   return (
@@ -46,10 +51,29 @@ const Ourlatestnews = () => {
       <div className={styles.Ourlatestnewscards}>
         {Array.map((item, index) => {
           return <Ournewscard key={`Ournewscard-${index}`}{...item} />
-        })}</div>
+        })}
+        </div>
+        <div className={styles.read}>Read more</div>
+        <div className={styles.rig}> <img  src='/right-arrow 1.png' alt='ar'/></div>
+        <div className={styles.readmo}>Read more</div>
+        <div className={styles.righ}> <img  src='/right-arrow 1.png' alt='ar'/></div>
+        <div className={styles.readmor}>Read more</div>
+        <div className={styles.right}> <img  src='/right-arrow 1.png' alt='ar'/></div>
+        <div className={styles.circle}>
+          <img src='/zero.png' alt='cir' style={{ width: '12px', height: '12px' }} ></img>
+          <img src='/zero.png' alt='circ' style={{ width: '12px', height: '12px' }}></img>
+          <img src='/zero.png' alt='circle' style={{ width: '12px', height: '12px' }}></img>
+          <img src='/ellipsenext.png' alt='circle' style={{ width: '30px', height: '12px' }}></img>
+
+        </div>
+        
+        
+           
+
+        </div>
         
 
-    </div>
+    
   )
 }
 

@@ -36,6 +36,7 @@
     font-size: medium;
     text-align: center;
     padding: 18px;
+   
 }
 .viewallimg{
     max-width: 80px;
@@ -72,6 +73,62 @@
     margin-top: 28px;
     
 }
+.read{
+    font-size: x-large ;
+    font-weight:bold ;
+    text-align: start;
+    margin-left: 230px;
+    margin-right: 110px;
+    margin-top: 160px;
+}
+.rig{
+   
+    margin-left: 376px;
+    margin-right: 1044px;
+    margin-top: -30px;
+    
+
+}
+.readmo{
+    font-size: x-large ;
+    font-weight:bold ;
+    text-align: start;
+    margin-left: 630px;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+.righ{
+   
+    margin-left: 774px;
+    margin-right: 723px;
+    margin-top: -25px;
+    
+
+
+}
+.readmor{
+    font-size: x-large ;
+    font-weight:bold ;
+    
+    margin-left: 1004px;
+    margin-right: 180px;
+    margin-top: -30px;
+}
+.right{
+   
+    margin-left: 1164px;
+    margin-right: 243px;
+    margin-top: -25px;
+}
+.circle{ display: flex;
+    gap: 5px; 
+    padding: 89px 732px 139px 696px;
+    justify-content: center;
+}
+     
+   
+  
+
 
 
 
