@@ -27,25 +27,25 @@ const Footer = () => {
         <button className={styles.daigram}>
           <img src="/ipsum.png" alt="ipsum" />
         </button>
-        <div className={styles.titles}>
-          <div>Lorem Ipsum is simply </div>
-          <div>Go to our official Announcements</div>
-        </div>
+        
+          <div className={styles.titles}>Lorem Ipsum is simply </div>
+          <div className={styles.our}>Go to our official Announcements</div>
+        
       </div>
       <div className={styles.verticalline2}></div>
       <div className={styles.ipsumdummy}>
-        <div className={styles.requirement}>
-          <div>Lorem Ipsum is simply dummy</div>
-          <div>Go to DID requirements</div>
-        </div>
-        <div className={styles.simply}>
-          <div>Lorem Ipsum is simply</div>
-          <div>To the knowledgebase</div>
-        </div>
+        
+          <div className={styles.requirement}>Lorem Ipsum is simply dummy</div>
+          <div className={styles.did}>Go to DID requirements</div>
+        
+        
+          <div className={styles.simply}>Lorem Ipsum is simply</div>
+        <div className={styles.to}>To the knowledgebase</div>
+        
       </div>
-      <div className={styles.social}>
-        <img src="/Sociallink.png" alt="sociallink" />
-      </div>
+      
+        <img className={styles.social}src="/Sociallink.png" alt="sociallink" />
+    
     </div>
   );
 };
