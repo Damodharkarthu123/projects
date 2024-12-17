@@ -1,0 +1,12 @@
+.wrapper{
+    background-color: whitesmoke;
+    color: black;
+}
+.images{
+   
+   margin-left: auto;
+    margin-right: auto;
+    max-width: 50px;
+    max-height: 50px;
+
+}
