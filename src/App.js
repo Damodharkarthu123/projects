@@ -5,7 +5,7 @@ import Header from './Header/Header';
 //import Whatwe from './whatwedo/Whatwe';
 //import Webinar from './webinars/Webinar';
 //import Ourlatestnews from './latestnews/Ourlatestnews';
-//import Footer from './footer/Footer';
+import Footer from './footer/Footer';
 import { Routes,Route } from "react-router-dom";
 import Home from './Header/Home'
 import Aboutus from './Header/Aboutus'
@@ -18,11 +18,11 @@ function App() {
   return (
     
     <div className="App">
- {/* <Header />
-      <About />
+ <Header />
+      {/* <About />
       <Whatwe />
       <Webinar />
-      <Ourlatestnews />
+      <Ourlatestnews />*/}
     <Footer />
       
       <Routes>
@@ -30,8 +30,9 @@ function App() {
         <Route path="/aboutus" element={<Aboutus/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/news" element={<News/>}/>
-      </Routes>*/}
+      </Routes>
       <Web />
+      
     </div>
     
   );
